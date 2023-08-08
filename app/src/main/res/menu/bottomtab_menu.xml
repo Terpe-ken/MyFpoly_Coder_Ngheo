@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/icon_home_cam"
+        android:title="Trang chủ" />
+    <item
+        android:id="@+id/navigation_lichhoc"
+        android:icon="@drawable/icon_lichhoc_cam"
+        android:title="Lịch học" />
+    <item
+        android:id="@+id/navigation_diem"
+        android:icon="@drawable/icon_diem_cam"
+        android:title="Điểm" />
+    <item
+        android:id="@+id/navigation_tienich"
+        android:icon="@drawable/icon_lichhoc_black"
+        android:title="Tiện ích" />
+</menu>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/mauApp"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:background="@drawable/custom_login"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="20dp"
+        >
+        <ImageView
+
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.5"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:src="@drawable/dichvu_tructuyen"
+            android:layout_marginLeft="8dp"/>
+        <LinearLayout
+            android:layout_weight="8.5"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            >
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dịch vụ trực tuyến"
+                android:textStyle="bold"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sử dụng các dịch vụ trực tuyến"
+                android:textSize="18dp"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/custom_login"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="20dp"
+        >
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.5"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:src="@drawable/hocphi"
+            android:layout_marginLeft="8dp"/>
+        <LinearLayout
+            android:layout_weight="8.5"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Học phí"
+                android:textStyle="bold"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thông tin giao dịch, hóa đơn"
+                android:textSize="18dp"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/custom_login"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="20dp"
+        >
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.5"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:src="@drawable/emotion_passport"
+            android:layout_marginLeft="8dp"
+            />
+        <LinearLayout
+            android:layout_weight="8.5"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Emotion Passport"
+                android:textStyle="bold"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sự kiện và lịch sử tham gia sự kiện"
+                android:textSize="18dp"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/custom_login"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="20dp"
+        >
+        <ImageButton
+            android:id="@+id/imgbtn_cdsv"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.5"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:src="@drawable/congdong_sinhvien"
+            android:layout_marginLeft="8dp"/>
+        <LinearLayout
+            android:layout_weight="8.5"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cộng đồng sinh viên"
+                android:textStyle="bold"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thực học ,thực nghiệp"
+                android:textSize="18dp"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/custom_login"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="20dp"
+        >
+        <ImageView
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1.5"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:src="@drawable/khaosat"
+            android:layout_marginLeft="8dp"/>
+        <LinearLayout
+            android:layout_weight="8.5"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="8dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Khảo sát"
+                android:textStyle="bold"
+                android:textSize="16dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Khảo sát đánh giá"
+                android:textSize="18dp"
+                android:layout_marginTop="8dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>

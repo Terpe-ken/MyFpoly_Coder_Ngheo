@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/teal"
+    tools:context=".Fragment.HomeFragment" >
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabMode"
+
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabLichhoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lịch Học" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tabLichthi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lịch Thi"/>
+    </com.google.android.material.tabs.TabLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
